@@ -3,14 +3,6 @@ __all__ = [
         "convert_base"
     ]
 
-"""
-convert_base(str(abs(num)),
-             int(to_base)=10,
-             int(from_base)=10
-             ) => str(answer)
-bases: [2-36]
-"""
-
 def convert_base(num:str, to_base:int=10, from_base:int=10):
     """
 convert_base(str(abs(num)),
